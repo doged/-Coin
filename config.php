@@ -13,10 +13,10 @@
 	$wallets = array();
 
 	$wallets['wallet 1'] = array(
-		"user" => "bitcoinrpc",  
+		"user" => "dogecoindarkrpc",  
 		"pass" => "password",      
-		"host" => "hostname",     
-		"port" => 8332,
+		"host" => "127.0.0.1",     
+		"port" => 20102,
 		"protocol" => "https"
 	);
 
