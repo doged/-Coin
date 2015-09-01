@@ -38,7 +38,7 @@
 	try {
 		$nmcinfo = $nmc->getinfo();
 	} catch(exception $e) {
-		die("Failed to retrieve data from the daemon, please check your configuration, and ensure that your coin daemon is running:<br>  {$e}");
+		die("Failed to retrieve data from the daemon, please check your configuration, and ensure that your dogecoindark (dogecoindarkd) daemon is running:<br>  {$e}");
 	}
 
 	$wallet_encrypted = true;
@@ -88,11 +88,11 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="./">+Coin WebUI</a>
+				<a class="navbar-brand" href="./">DogecoinDark WebUI</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="btc.php">Transactions</a></li>
+					<li><a href="doged.php">Transactions</a></li>
 					<li><a href="address.php">My Addresses</a></li>
 					<li><a href="addressbook.php">Addressbook</a></li>
 				</ul>
