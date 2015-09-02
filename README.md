@@ -1,5 +1,6 @@
-What is +Coin?
---------------
+![php-doged](http://i.imgur.com/1ZsHcUo.png)
+# php web based interface for dogecoindark daemon (dogecoindarkd)
+
 doged-phpwebwallet is a Web Interface built to run on any PHP web server, it works with the dogecoindark daemon (dogecoindarkd, available on windows/linux/osx).
 
 [Bitcointalk Thread](https://bitcointalk.org/index.php?topic=67274.0)
