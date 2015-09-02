@@ -3,11 +3,6 @@
 
 doged-phpwebwallet is a Web Interface built to run on any PHP web server, it works with the dogecoindark daemon (dogecoindarkd, available on windows/linux/osx).
 
-[Bitcointalk Thread](https://bitcointalk.org/index.php?topic=67274.0)
-
-Preview
--------
-![](http://i.imgur.com/WHDXDwV.jpg)
 
 Licensing
 ---------
@@ -44,29 +39,14 @@ You can obtain the RPC Information from:
 
 **Windows**
 
-   - %appdata%\Bitcoin\bitcoin.conf
-   - %appdata%\Litecoin\litecoin.conf
-   - %appdata%\Namecoin\bitcoin.conf
+   - %appdata%\DogeCoinDark\DogeCoinDark.conf
 
 **Linux**
 
-   - ~/.bitcoin/bitcoin.conf
-   - ~/.litecoin/litecoin.conf
-   - ~/.namecoin/bitcoin.conf
-
+   - ~/.DogeCoinDark/DogeCoinDark.conf
+   
 **OSX**
 
-   - ~/Library/Application Support/Bitcoin/bitcoin.conf
-   - ~/Library/Application Support/Litecoin/litecoin.conf
-   - ~/Library/Application Support/Namecoin/bitcoin.conf
-
-Note: Start the RPC server: open Bitcoin-Qt.app --args -server
-
-
-DONATIONS
----------
-
-Donations for first developer **Someguy123** are accepted:
-
-- BTC: 1SoMGuYknDgyYypJPVVKE2teHBN4HDAh3
-- LTC: LSomguyTSwcw3hZKFts4P453sPfn4Y5Jzv
+   - ~/Library/Application Support/DogeCoinDark/DogeCoinDark.conf
+   
+Note: Start the RPC server: open DogeCoinDark-Qt.app --args -server
